@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .navbar {
+    @apply bg-white h-20 md:h-28 lg:h-35 border-black border-b-20 md:border-b-32 lg:border-b-40;
+  }
+  .menu-btn {
+    @apply hover:font-bold bg-black md:bg-transparent hover:bg-gray-70 md:hover:bg-transparent md:hover:text-red-24 text-center border-y md:border-0 border-white text-lg lg:text-xl;
+  }
+  .menu-link {
+    @apply block py-5 md:px-5 md:py-7 lg:px-6 lg:py-9;
+  }
+}
